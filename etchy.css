@@ -1,0 +1,17 @@
+#etcharea * tr {
+    border: none;
+    display: block;
+}
+
+#pix{
+    display: inline-block;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    background-color: #ff0000;
+    height: 20px;
+    width: 20px;
+}
+
+.colored{
+    background-color: #000000;
+}
