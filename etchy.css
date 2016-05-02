@@ -1,16 +1,23 @@
-#etch-area * tbody{
-    border: 1px solid #0000ff;
+#etch-area{
+    border: 1px solid #000000;
     background-color: silver;
+    margin: 0px;
+    padding: 0px;
+    float: left;
 }
 
-#etch-area * tr {
-    display: block;
+.etch-row{
+    clear: both;
+    border: none;
 }
 
-#etch-area * td {
-    display: inline-block;
-    height: 20px;
+.etch-pix{
+    border: none;
+    float: left;
+    margin: 0px;
+    padding: 0px;
     width: 20px;
+    height: 20px;
 }
 
 .colored{

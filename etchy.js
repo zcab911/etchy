@@ -1,19 +1,20 @@
 // Enter script here??
-var rows = 16;
-var cols = 16;
+var rows = 8;
+var cols = 8;
+var $etcharea = "#etch-area";
+var $etchrow = ".etch-row";
+var $etchpix = ".etch-pix";
 $(document).ready(function() {
-    // Add 16x16 grid
     for (var i=0; i<rows; i++)
     {
-        $('tbody').append("<tr>");
         for (var j=0; j<cols; j++)
         {
-            $('tbody').append("<td></td>");
+            $($etcharea).append("<div class='etch-pix'></div>");
         }
-        $('tbody').append("</tr>");
+        $($etcharea).append("<div class='etch-row'></div>");
     }
     
-    $('td').mouseenter(function() {
+    $($etchpix).mouseenter(function() {
         $(this).addClass('colored')
     })
 })
