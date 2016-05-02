@@ -8,11 +8,12 @@ $(document).ready(function() {
         $('tbody').append("<tr>");
         for (var j=0; j<cols; j++)
         {
-            $('tbody').append("<td id='pix'></td>");
+            $('tbody').append("<td></td>");
         }
         $('tbody').append("</tr>");
     }
-    $('#pix').hover(function() {
-        $(this).toggleClass('colored')
+    
+    $('td').mouseenter(function() {
+        $(this).addClass('colored')
     })
 })

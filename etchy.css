@@ -1,13 +1,14 @@
-#etcharea * tr {
-    border: none;
+#etch-area * tbody{
+    border: 1px solid #0000ff;
+    background-color: silver;
+}
+
+#etch-area * tr {
     display: block;
 }
 
-#pix{
+#etch-area * td {
     display: inline-block;
-    border: 1px solid #000000;
-    border-collapse: collapse;
-    background-color: #ff0000;
     height: 20px;
     width: 20px;
 }
